@@ -1,0 +1,66 @@
+body {
+  background: #72bb8d;
+
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+
+::selection {
+  background: #212129;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #fff;
+  font-weight: bold;
+  border-bottom: #fff 2px solid;
+}
+
+/*STYLES*/
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 600px;
+  height: 350px;
+  background-color: #212129;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: all 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.card .title, .card .subtitle {
+  font-weight: 100;
+  color: #F9F8FD;
+  text-align: center;
+}
+.card .title {
+  font-size: 3rem;
+}
+.card .subtitle {
+  font-size: 1.75rem;
+}
