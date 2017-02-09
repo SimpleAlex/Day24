@@ -1,3 +1,6 @@
+@import url(//fonts.googleapis.com/css?family=Nunito);
+
+
 body {
   background: #72bb8d;
 
@@ -46,9 +49,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 600px;
-  height: 350px;
   background-color: #212129;
+  width: 50%;
+  height: 50vh;
   box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.6);
   -webkit-transition: all 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
   transition: all 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
@@ -57,10 +60,19 @@ body {
   font-weight: 100;
   color: #F9F8FD;
   text-align: center;
+  width: 100%;
 }
 .card .title {
   font-size: 3rem;
 }
 .card .subtitle {
   font-size: 1.75rem;
+}
+
+
+@media all and (max-width: 768px) {
+  .card {
+    width: 100%;
+    height: 50vh;
+  }
 }
